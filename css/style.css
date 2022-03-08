@@ -1,0 +1,128 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Estilizando o body */
+body {
+	background: #373F51;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Estilizando o header */
+header {
+	background: #58A4B0;
+	height: fit-content;
+	padding-top: 10px;
+}
+
+/* Estilizando barra de navegação */
+header a.logo:link, a.logo:visited{
+	text-decoration: none;
+	color: #F4ECE2;
+}
+
+a.logo span {
+	color: #E6CEBC;
+}
+
+a.logo:hover, span:hover {
+	color: black;
+}
+
+div.dropdown-menu{
+	height: 200px;
+	background: #F4ECE2;
+	overflow-y: scroll;
+}
+
+a.nav-link:link, a.nav-link:visited {
+	color: #F4ECE2;
+}
+
+a.nav-link:hover {
+	color: #373F51;
+}
+
+/* Estilizando o main */
+main div.container {
+	background: #A9BCD0;
+}
+
+h2 {
+	color: #276359;
+}
+
+/* Seção adicionados recentemente */
+section#recentes{
+	padding-top: 30px;
+	margin-bottom: 15px;
+}
+
+section#recentes h2{
+	text-align: center;
+}
+
+article#episodios {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+div.videos {
+	width: 200px;
+	text-align: center;
+}
+
+div.videos a:link, div.videos a:visited{
+	color: #F4ECE2;
+}
+
+div.videos a:hover{
+	color: #373F51;
+}
+
+/* Seção animes disponíveis */
+section#disponiveis {
+	padding-bottom: 50px;
+}
+
+section#disponiveis {
+	margin-top: 20px;
+	text-align: center;
+}
+
+section#disponiveis img {
+	width: 200px;
+}
+
+article#capas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+article#capas a {
+	margin-left: 20px;
+}
+
+article#capas a:link, article#capas a:visited{
+	color: #F4ECE2;
+}
+
+article#capas a:hover{
+	color: #373F51;
+}
+
+/* Estilizando o footer */
+footer div{
+	background: #A9BCD0;
+	text-align: center;
+	line-height: 2em;
+	padding-bottom: 20px;
+	border-top: 2px solid #D8DBE2;
+}
