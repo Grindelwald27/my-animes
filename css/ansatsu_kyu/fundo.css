@@ -1,4 +1,9 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
 body {
-	background: url(../../imagens/ansatsu_kyu/capa.jpg);
+	background: #373F51 url(../../images/ansatsu_kyu/capa.jpg);
 	background-attachment: fixed;
 }

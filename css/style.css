@@ -15,7 +15,7 @@ a {
 
 /* Estilizando o header */
 header {
-	background: #58A4B0;
+	background: rgba(88, 164, 176, 0.9);
 	height: fit-content;
 	padding-top: 10px;
 }
@@ -50,7 +50,7 @@ a.nav-link:hover {
 
 /* Estilizando o main */
 main div.container {
-	background: #A9BCD0;
+	background: rgba(169, 188, 208, 0.9);
 }
 
 h2 {
@@ -123,6 +123,7 @@ footer div{
 	background: #A9BCD0;
 	text-align: center;
 	line-height: 2em;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	border-top: 2px solid #D8DBE2;
 }

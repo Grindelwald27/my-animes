@@ -8,6 +8,11 @@ section.episodios {
 	padding-bottom: 20px;
 }
 
+section.episodios img {
+	width: 100px;
+	margin-right: 20px
+}
+
 section.episodios li {
 	padding: 20px;
 	border-bottom: 3px solid #8EBBA7;
@@ -23,11 +28,6 @@ section.episodios li a {
 section.episodios li a:hover {
 	width: 50%;
 	box-shadow: 10px 5px 20px #FCAC89;
-}
-
-section.episodios video {
-	width: 100px;
-	margin-right: 10px;
 }
 
 section.episodios div {

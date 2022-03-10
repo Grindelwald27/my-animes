@@ -10,10 +10,6 @@ section#video{
 	margin-bottom: 10px;
 }
 
-div.container nav {
-	margin-bottom: 50px;
-}
-
 li.active a{
 	cursor: default;
 }
